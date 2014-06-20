@@ -1,0 +1,154 @@
+$titcolor:#000;
+$whity:#fff;
+$back: #2c3e50;
+
+
+.nav{
+	height: 40px;
+	top:60px;
+	background: $back;
+	padding-top: 10px;
+	font-weight: 700;
+	li {
+		margin-top: 20px;
+		display: inline;
+		font-size: 12px;
+		padding-left: 20px;
+		}
+	  a{
+		text-transform: uppercase;
+		color:$whity;
+		}
+	}
+
+.jumbotron{
+	background:url(../img/mtl2.png) no-repeat;
+	background-size:cover;
+	height: 400px;
+
+		h2{
+			color: $whity;
+			font-family: 'Raleway';
+			padding-bottom: 20px;
+			font-weight: 700;
+		}
+
+		h3, h4, small{
+			color:$whity;
+			font-weight: lighter;
+		}
+
+		.profile-photo{
+			img{
+
+			-webkit-border-radius: 90px;
+			-moz-border-radius: 90px;
+			border-radius: 90px;
+		}
+		}
+}
+
+.Course-body{
+	margin-top: -30px;
+	padding-left: 250px;
+	
+	
+	  .contents{
+		background:$back;
+		margin-left: -250px;
+		left:250px;
+		width: 250px;
+		height: 100%;
+		position: absolute;
+		
+
+		.sidebar-nav {
+   	   	  position: absolute;
+	   	  top: 0;
+		  width: 200px;
+		  list-style: none;
+		  margin: 0;
+		  padding: 0;
+
+	  		li{
+	  			font-size: 20px;
+	  			font-weight: 400;
+	  			line-height: 2px;
+	  			margin-top: -2px;
+
+	  			   				
+	  				
+	  				.fa{
+	  					top:43px;
+	  					padding-left: 12px;
+	  					color: $whity;
+	  					position: relative;	
+	  					line-height: 2px;
+
+
+
+	  				}
+	  			  		
+				a {
+				
+				color:$whity;
+ 				 display: block;
+ 				 text-decoration: none;
+ 				 width:250px;
+ 				 height:40px;
+ 				 padding: 20% 20%;
+
+ 				 			 
+ 				 &:hover {
+  					background:#16a085; 
+				    text-decoration: none;
+					}
+ 				}
+ 			}
+	 	   }
+		}
+
+.course-page{
+
+
+	.course-list{
+		padding: 15px 20px;
+
+		.course-item
+			{
+			text-align: center;
+			border-radius: 10px;
+			padding: 10px 10px;
+			background:#ecf0f1;
+
+			.h4{
+				font-weight: bold;
+			}
+
+			&:hover{
+				background: #bdc3c7;
+			}
+
+			}
+
+	}
+}
+
+.course-page2
+{
+	@extend  .course-page;
+
+	.course-item{
+		background: #95a5a6;
+	}
+}
+}
+	
+
+
+
+
+
+
+
+	

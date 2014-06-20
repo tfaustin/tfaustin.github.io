@@ -1,0 +1,16 @@
+$titcolor:#fff;
+
+
+.nav a{
+	text-transform: uppercase;
+	color:$titcolor;
+}
+
+.jumbotron{
+	background-image: url(../SassExemple/img/SteCatherine.png);
+	height: 800px;
+	background-color: $titcolor;
+}
+.nav li{
+	display: inline;
+}

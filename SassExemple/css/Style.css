@@ -1,0 +1,83 @@
+.nav {
+  height: 40px;
+  top: 60px;
+  background: #2c3e50;
+  padding-top: 10px;
+  font-weight: 700; }
+  .nav li {
+    margin-top: 20px;
+    display: inline;
+    font-size: 12px;
+    padding-left: 20px; }
+  .nav a {
+    text-transform: uppercase;
+    color: white; }
+
+.jumbotron {
+  background: url(../img/mtl2.png) no-repeat;
+  background-size: cover;
+  height: 400px; }
+  .jumbotron h2 {
+    color: white;
+    font-family: 'Raleway';
+    padding-bottom: 20px;
+    font-weight: 700; }
+  .jumbotron h3, .jumbotron h4, .jumbotron small {
+    color: white;
+    font-weight: lighter; }
+  .jumbotron .profile-photo img {
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px; }
+
+.Course-body {
+  margin-top: -30px;
+  padding-left: 250px; }
+  .Course-body .contents {
+    background: #2c3e50;
+    margin-left: -250px;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    position: absolute; }
+    .Course-body .contents .sidebar-nav {
+      position: absolute;
+      top: 0;
+      width: 200px;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      .Course-body .contents .sidebar-nav li {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 2px;
+        margin-top: -2px; }
+        .Course-body .contents .sidebar-nav li .fa {
+          top: 43px;
+          padding-left: 12px;
+          color: white;
+          position: relative;
+          line-height: 2px; }
+        .Course-body .contents .sidebar-nav li a {
+          color: white;
+          display: block;
+          text-decoration: none;
+          width: 250px;
+          height: 40px;
+          padding: 20% 20%; }
+          .Course-body .contents .sidebar-nav li a:hover {
+            background: #16a085;
+            text-decoration: none; }
+  .Course-body .course-page .course-list, .Course-body .course-page2 .course-list {
+    padding: 15px 20px; }
+    .Course-body .course-page .course-list .course-item, .Course-body .course-page2 .course-list .course-item {
+      text-align: center;
+      border-radius: 10px;
+      padding: 10px 10px;
+      background: #ecf0f1; }
+      .Course-body .course-page .course-list .course-item .h4, .Course-body .course-page2 .course-list .course-item .h4 {
+        font-weight: bold; }
+      .Course-body .course-page .course-list .course-item:hover, .Course-body .course-page2 .course-list .course-item:hover {
+        background: #bdc3c7; }
+  .Course-body .course-page2 .course-item {
+    background: #95a5a6; }
