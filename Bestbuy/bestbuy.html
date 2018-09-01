@@ -8,16 +8,58 @@
     <style>
     *{
         text-decoration: none;
-    }
+     }
+
+     @media only screen and (min-width:960px){
+        .container{
+          width:960px;
+        }
+        .logo img{
+            width: 77px;
+            
+        }
+        img{
+            width: 100%;
+        }
+        .hero-section img{
+            width: 100%;
+        }
+        }
+
+        @media only screen and (max-width:960px){
+        .container{
+          width:600px;
+        }
+      }
+
+       @media only screen and (max-width:600px){
+        .container{
+          width:100%;
+        }
+        .navigation{
+            width:100%;
+        }
+        .navigation a{
+            width:100%;
+        }
+        .logo img{
+            width: 77px;
+            
+        }
+        img{
+            width: 100%;
+        }
+        
+       }
     </style>
 </head>
-<body style="background:#0D184A ;">
+<body style="background:#0D184A;">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td>
-            <table width="600" border="0" cellspacing="0" cellpadding="0" style="background: #fff;" align="center">
+            <table class="container" width="600" border="0" cellspacing="0" cellpadding="0" style="background: #fff;" align="center">
                 <tr>
-                    <td align="center">
+                    <td align="center" class="logo">
                         <h3 style="font-family:Verdana,Arial,Helvetica,sans-serif;
                         font-size:10px;color:#003b65;border-collapse:collapse">Les jours HP sont EN COURS! Économisez sur les portables, 
                             les imprimantes, les moniteurs et autres produits de HP</h3>
@@ -26,7 +68,7 @@
                 </tr>
 
                 <tr>
-                    <td>
+                    <td class="navigation">
                         <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center"
                         style="background:#fff; padding:10px 15px;">
                             <tr>
@@ -49,7 +91,7 @@
                 </tr>
 
                 <tr>
-                    <td align="center">
+                    <td class="hero-section" align="center">
                         <table border="0" align="center"cellspacing="0" cellpadding="0" style="font-family:'open sans',arial,sans-serif;border-collapse:collapse">
                             <tr>
                                 <td>
@@ -75,7 +117,7 @@
                                                <a href=""><img src="img/Desktop-left.jpg" alt="" style="margin:0 auto;"></a> 
                                             </td>
                                             <td align="right">
-                                               <a href=""></a><img src="img/Desktop-right.jpg" alt="" style="margin:0 auto;"></a> 
+                                               <a href=""><img src="img/Desktop-right.jpg" alt="" style="margin:0 auto;"></a> 
                                             </td>
                                         </tr>
                                     </table>
