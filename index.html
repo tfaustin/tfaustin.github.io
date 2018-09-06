@@ -11,12 +11,17 @@
     <title>Portfolio</title>
 </head>
 <body>
+<div id="app">
 <div class="container">
     <div class="logo">tfaustin</div>
     <nav>
         <ul>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#" v-scroll-to="{element:'#Projects',duration:3000}">
+                Projects</a>
+            </li>
+            <li><a href="#" v-scroll-to="{element:'#Contact',duration:3000}">
+                Contact</a>
+            </li>
         </ul>
     </nav>
   <div class="hero">
@@ -40,7 +45,7 @@
 
   
  </div>
-<section>
+ <section id="Projects">
     <div class="section-header">
         <!-- <h2 class="work">01</h2> -->
         <h2>Some of my work</h2>
@@ -71,7 +76,7 @@
     </div>
 </section>
 </div>
-<footer>
+<footer id="Contact">
     <ul>
         <li>
                 &copy;2018, T.Faustin
@@ -85,7 +90,21 @@
         </li>
     </ul>
 </footer>
+</div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-scrollto"></script>
+
+<script>
+
+// You can also pass in the default options
+new Vue({
+  el: '#app',
+  methods: {
+  }
+})
+</script>
+
 </html>
 
 
