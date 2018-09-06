@@ -14,23 +14,43 @@
         .container{
           width:960px;
         }
-        .logo img{
-            width: 77px;
-            
-        }
-        img{
+        .hero-section img{
             width: 100%;
         }
-        .hero-section img .hero-section-2 img{
+        /* img{
+            width: 100%;
+        } */
+        /* .event-banner img{
+            width: 100%;
+
+        } */
+        /* .Solde-bleu img{
+            width: 100%;
+        } */
+        .bags img,.footer-items img, .social img, .event-banner img, .stores img, .pixel img, .samsung img, .galaxy-tab img, .google-wifi img, .Solde-bleu img{
             width: 100%;
         }
 
+        .Beats{
+            padding-left:100px;
+        }
+        .Watch{
+            padding:10px 82px;
+        }
         }
 
         @media only screen and (max-width:960px){
         .container{
           width:600px;
         }
+        .hero-section img{
+            width: 100%;
+        }
+        .event-banner img{
+            width: 100%;
+
+        }
+       
       }
 
        @media only screen and (max-width:600px){
@@ -49,6 +69,22 @@
         }
         img{
             width: 100%;
+        }
+
+        .modem{
+            padding: 10px 20px;
+            width: 50%; 
+        }
+
+        .scanner{
+            padding-left:40px;
+        }
+
+        .Beats{
+            padding-left:15px;
+        }
+        .Watch{
+            padding:10px 15px;
         }
         
        }
@@ -141,7 +177,7 @@
                                     <table border="0" align="center"cellspacing="0" cellpadding="0" 
                                         style="font-family:'open sans',arial,sans-serif;border-collapse:collapse">
                                     <tr>
-                                        <td align="left" style="padding-left:15px; font-family: 'open sans',arial,sans-serif;">
+                                        <td align="left" class="scanner" style="padding-left:30px; font-family: 'open sans',arial,sans-serif;">
                                             <div>
                                                 <a href=""><img src="img/scanner.jpg" alt="" width="200px;">
                                             </div>
@@ -152,7 +188,7 @@
                                                 HP - Noir</div></a>
                                         </td>
 
-                                        <td align="left" style="padding:10px 15px;">
+                                        <td align="left" style="padding:10px 15px;" class="modem">
                                             <div>
                                                 <a href=""><img src="img/modem.jpg" alt="" width="200px;">
                                             </div>
@@ -179,7 +215,7 @@
                 </tr>
 
                 <tr>
-                    <td align="center">
+                    <td align="center" class="event-banner">
                        <a href=""><img src="img/event-banner.jpg" alt=""></a>
                     </td>
                 </tr>
@@ -212,7 +248,7 @@
 
                 <tr>
                     <td>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center"
+                        <table class="Solde-bleu"width="100%" border="0" cellspacing="0" cellpadding="0" align="center"
                         style="background:#fff; padding:10px 15px;">
 
                         <tr>
@@ -246,7 +282,7 @@
                                         <table border="0" align="center"cellspacing="0" cellpadding="0" 
                                             style="font-family:'open sans',arial,sans-serif;border-collapse:collapse">
                                         <tr>
-                                            <td align="left" width="50%"style="padding-left:15px;">
+                                            <td align="left" class="Beats" width="50%"style="padding-left:25px;">
                                                 <div >
                                                     <a href=""><img src="img/Beats.jpg" alt="" width="200px;">
                                                 </div>
@@ -256,7 +292,7 @@
                                                 <div style="padding-right:50px;line-height:18px;font-size: 14px;color:#4d4d4f;padding-bottom: 5px;">Casque d’écoute sans fil BluetoothMD <br>Studio 3 de Beats by Dr. Dre</div></a>
                                             </td>
     
-                                            <td align="left" width="50%" style="padding:10px 15px;">
+                                            <td align="left" width="50%" class="watch" style="padding:10px 15px;">
                                                 <div>
                                                     <a href=""><img src="img/watch.jpg" alt="" width="200px;">
                                                 </div>
@@ -398,7 +434,7 @@
                             
                         </td>
                 </tr>
-
+<!--
                 <tr>
                         <td>
                             <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center"
@@ -477,13 +513,13 @@
                             
                         </td>
                 </tr>
-
+-->
                 <tr>
                     <td align="left" style=" width:80%;background: #d1d1d1;padding:5px 20px;font-size:18px;font-family: 'Open Sans',Arial,Helvetica,sans-serif;"><span >AUBAINES EN LIGNE SEULEMENT</span></td>
                 </tr>
 
                 <tr>
-                    <td align="center" style="padding:10px 15px;">
+                    <td align="center" class="bags" style="padding:10px 15px;">
                        <a href=""><img src="img/bags.jpg" alt=""></a>
                     </td>
                 </tr>
@@ -520,12 +556,13 @@
                 </tr>
 
                 <tr>
-                    <td align="center">
+                    <td align="center" class="pixel">
                        <a href=""><img src="img/pixel.jpg" alt=""></a>    
                     </td>
                 </tr>
+
                 <tr>
-                    <td align="center">
+                    <td align="center" class="google-wifi">
                     <a href=""><img src="img/google-wifi.jpg" alt=""></a>    
                     </td>
                 </tr>
@@ -535,26 +572,26 @@
                 </tr>
 
                 <tr>
-                    <td align="center">
+                    <td align="center" class="samsung">
                        <a href=""><img src="img/samsung.jpg" alt=""></a>    
                     </td>
                 </tr>
 
                 <tr>
-                    <td align="center">
+                    <td align="center" class="galaxy-tab">
                        <a href=""> <img src="img/galaxy-tab.jpg" alt=""></a>    
                     </td>
                 </tr>
 
                 <tr>
-                    <td align="center">
+                    <td align="center" class="stores">
                        <a href=""> <img src="img/stores.jpg" alt=""></a>   
                     </td>
                 </tr>
 
                 <tr>
                     <td>
-                        <table border="0" align="center"cellspacing="0" cellpadding="0" 
+                        <table border="0" class="footer-items" align="center"cellspacing="0" cellpadding="0" 
                         style="font-family:'open sans',arial,sans-serif;border-collapse:collapse">
                         <tr>
                             <td>
@@ -578,18 +615,18 @@
                 </tr>
 
                 <tr>
-                        <td width="100%">
-                            <table  border="0" align="center"cellspacing="0" cellpadding="0" 
+                        <td width="100%" >
+                            <table  border="0"  align="center"cellspacing="0" cellpadding="0" 
                             style="font-family:'open sans',arial,sans-serif;border-collapse:collapse">
-                            <tr>
-                                <td>
+                            <tr >
+                                <td >
                                    <a href=""><img src="img/footer-link-1.jpg" alt=""></a>
                                 </td>
-                                <td>
+                                <td >
                                     <a href=""><img src="img/footer-link-2.jpg" alt=""></a>
                                 </td>
     
-                                <td>
+                                <td >
                                     <a href=""><img src="img/footer-link-3.jpg" alt=""></a>
                                 </td>
                                 <td align="right">
