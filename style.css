@@ -89,10 +89,10 @@ nav ul li a:hover{
 }
 .profile p{
     margin-top:-24px;
-    padding-left:85px;
+    padding-left:193px;
     color:#737373;
     font-style: normal;
-    font-size: 18px;  
+    font-size: 16px;  
 }
 
 
@@ -286,6 +286,14 @@ footer ul li a{
         margin-left: 0%;
         margin-bottom: 100px;
     }
+
+    .profile p{
+        margin-top:-24px;
+        padding-left:85px;
+        color:#737373;
+        font-style: normal;
+        font-size: 16px;  
+    }
     .grid{
         margin-left:35%; 
         margin-top:-78%;
@@ -384,6 +392,14 @@ footer ul li a{
         flex-direction: column;
         margin-left: 0%;
         margin-bottom: 325px;
+    }
+
+    .profile p{
+        margin-top:-24px;
+        padding-left:85px;
+        color:#737373;
+        font-style: normal;
+        font-size: 16px;  
     }
     .grid{
         margin-left:35%; 
