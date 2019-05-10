@@ -57,7 +57,7 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;  
     flex-direction: column;  
-    margin-left:25%;
+    margin-left:15%;
     margin-bottom: 200px;
 }
 
@@ -205,17 +205,24 @@ nav ul li a:hover{
 
 .btn-react{
     padding:10px 12px;
-    background:rgb(34, 72, 133);
-    color:#aab6cf;
+    /* background:#FB4969; */
+    background: transparent;
+    color:white;
     text-transform: uppercase;
     font-size: 11px;
     letter-spacing: 1px;
+    font-weight: 600;
     cursor: pointer;
-    border:none;
+    border:1px solid #FB4969;
     border-radius: 4px;
     -webkit-box-shadow: 0 3px 13px rgba(0,0,0,0.09), 0 1px 5px 0 rgba(0,0,0,0.14);
 	   -moz-box-shadow:0 3px 13px rgba(0,0,0,0.09), 0 1px 5px 0 rgba(0,0,0,0.14);
     box-shadow: 0 3px 13px rgba(0,0,0,0.09), 0 1px 5px 0 rgba(0,0,0,0.14);
+}
+
+.btn-react:hover{
+     background:#FB4969;
+     color:white;
 }
 .projects{
     width:80%;
@@ -252,7 +259,7 @@ nav ul li a:hover{
     font-weight: 300;
     margin-left:118px;
     padding:5px 0;
-    width:280px;
+    width:286px;
     color:#595959;
 }
 .section-header .work{
@@ -448,6 +455,7 @@ footer ul li a{
     }
     .details{
         margin-top: 0;
+        margin-left: 5px;
     }
 
     .project-card img{
