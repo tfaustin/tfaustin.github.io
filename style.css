@@ -161,20 +161,21 @@ nav ul li a:hover{
 } 
 .react-ui{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
     padding-left:16px;
     background: #1F2452;
-    height:500px;
+    height:600px;
     color:rgb(76, 89, 141);
     margin-bottom: 60px;
     /* margin-left: 10%; */
 }
 .details{
     margin-top: -160px;
+    margin-left: 40px;
 }
 
 .details h4{
@@ -209,6 +210,7 @@ nav ul li a:hover{
     text-transform: uppercase;
     font-size: 11px;
     letter-spacing: 1px;
+    cursor: pointer;
     border:none;
     border-radius: 4px;
     -webkit-box-shadow: 0 3px 13px rgba(0,0,0,0.09), 0 1px 5px 0 rgba(0,0,0,0.14);
@@ -258,8 +260,7 @@ nav ul li a:hover{
     position: absolute;
     font-size: 260px;
     font-weight: bold;
-    margin-top: -70px;
-    margin-left: 102px;
+    margin-top: -70px 0 0 102px;
     color: #30303030;
     font-family: sans-serif;
 }
@@ -312,6 +313,9 @@ footer ul li a{
     .container {
         width: 100%;
     }
+    .logo{
+        margin-left:40px;
+    }
     .projects{
         width:100%;
         display:grid;
@@ -319,6 +323,13 @@ footer ul li a{
         align-items: center;
         grid-gap:10px;
         margin-left:0;  
+    }
+
+    /* .react-ui{
+        width: 100%;
+    } */
+    .ui-img img{
+        width: 100%;
     }
 
     .project-card img{
@@ -426,6 +437,17 @@ footer ul li a{
         align-items: center;
         grid-gap:10px;
         margin-left:15px;  
+    }
+
+    .react-ui{
+        padding-bottom: 20px;
+    height: 100%;
+    }
+    .ui-img img{
+        width: 100%;
+    }
+    .details{
+        margin-top: 0;
     }
 
     .project-card img{
